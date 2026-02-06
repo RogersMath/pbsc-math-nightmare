@@ -1,0 +1,37 @@
+<div id="ui-layer">
+    <!-- Top Stats -->
+    <div id="stats-container">
+        <h2 class="game-title">MATH CASTER</h2>
+        <div class="stat-row">
+            <span class="label">HP</span>
+            <div class="bar-container">
+                <div id="hp-bar" class="bar-fill hp-fill"></div>
+            </div>
+        </div>
+        <div class="stat-row">
+            <span class="label">SCORE</span>
+            <span id="score-display">0</span>
+        </div>
+    </div>
+
+    <!-- Bottom Active Math HUD -->
+    <div id="math-hud">
+        <div class="hud-label">CAST SPELL</div>
+        <div id="problem-box">
+            <span id="problem-text">12 + 5</span>
+            <span class="equals">=</span>
+            <span id="input-text"></span>
+            <span class="cursor">|</span>
+        </div>
+        <div class="hud-hint">Type Answer & Press ENTER</div>
+    </div>
+    
+    <!-- Game Over Screen -->
+    <div id="game-over" class="hidden">
+        <h1>YOU DIED</h1>
+        <p id="final-score">Score: 0</p>
+        <button id="restart-btn">Press R to Restart</button>
+    </div>
+</div>
+
+<div id="canvas-container"></div>
